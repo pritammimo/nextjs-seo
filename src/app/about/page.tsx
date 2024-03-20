@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     absolute: "About Page",
   },
   description: "This is the about",
+  openGraph:{
+    images:["https://dummyimage.com/1200x630/000/fff.png"],
+  }
 };
 
 const AboutPage = () => {

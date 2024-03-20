@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     default: "Dummy Blog",
     template: `%s | Dummy blog`,
   },
+  openGraph:{
+    images:["https://dummyimage.com/1100x630/000/bbb.png"]
+  },
   description: "This is the description of dummy blog",
   verification: {
     google: "google-site-verification=878787878",
